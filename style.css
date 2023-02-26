@@ -1,0 +1,95 @@
+body{
+    background-color: #f8f7fd;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #753cb7;
+    font-weight: 800;
+    float: left;
+    right: 50px;
+    margin-left: 25px;
+}
+/*navigation bar settings*/
+.navigation {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    position: static;
+}
+    
+/*navigation bar link settings*/
+.navigation a{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+.navigation a.active {
+    color: red;
+}
+
+
+.navigation a:hover {
+    color: red;
+}
+
+.container {
+    content: normal;
+    margin: auto;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 1000px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.container p {
+    font-weight: 100;
+    width: 400px;
+    
+}
+.container .descriptive {
+    width: 400px;
+    float: left;
+}
+
+.container .descriptive .contact {
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    background-color: #8e43e2;
+    border-radius: 12px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.container .descriptive .portfolio {
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border-radius: 12px;
+    margin: 10px;
+    text-decoration: none;
+    color: #8e43e2;
+    font-weight: 800;
+    border: solid 1px #753cb7;
+}
+
+.container h1, h2 {
+    font-weight: 300;
+}
